@@ -44,7 +44,7 @@
             android:summary="@string/bug_report">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/rathishsekar/locations/issues/new"
+                android:data="https://github.com/rathishsekar/MyLocations/issues/new"
                 />
         </Preference>
         <Preference
