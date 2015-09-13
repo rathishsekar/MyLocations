@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/maps_title"
+        android:key="pref_key_storage_settings">
+
+        <ListPreference
+            android:defaultValue="Normal"
+            android:entries="@array/map_type_names"
+            android:entryValues="@array/map_type_values"
+            android:key="type_provider"
+            android:summary="@string/map_type_summary"
+            android:title="@string/map_type_title" />
+        <ListPreference
+            android:defaultValue="White"
+            android:entries="@array/marker_type_names"
+            android:entryValues="@array/marker_type_values"
+            android:key="color_provider"
+            android:summary="@string/marker_type_summary"
+            android:title="@string/marker_type_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/help_support"
+        android:key="pref_key_storage_settings"
+        >
+        <Preference
+            android:key="queries"
+            android:title="Queries"
+            android:summary="@string/queries">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="@string/mail">
+                <extra android:name="android.intent.extra.TEXT"
+                    android:value="My querry is ....\n" />
+                <extra android:name="android.intent.extra.SUBJECT"
+                    android:value="Feedback about Mymaps App" />
+            </intent>
+        </Preference>
+        <Preference
+            android:key="bug"
+            android:title="Bug Report"
+            android:summary="@string/bug_report">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/rathishsekar/locations/issues/new"
+                />
+        </Preference>
+        <Preference
+            android:key="rate"
+            android:title="@string/rate"
+            android:summary="@string/rate_summary">
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="map_type_values" translatable="false">
+        <item>Normal</item>
+        <item>Terrain</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string-array name="marker_type_values" translatable="false">
+        <item>White</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Green</item>
+        <item>Orange</item>
+    </string-array>
+
+</resources>

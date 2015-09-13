@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mymaps</string>
+
+    <string name="app_logo">Traccar</string>
+
+    <string name="map_type_title">Map Type</string>
+
+    <string name="map_type_summary">Different types of maps.</string>
+
+    <string-array name="map_type_names">
+
+        <item>Normal</item>
+
+        <item>Terrain</item>
+
+        <item>Satellite</item>
+
+        <item>Hybrid</item>
+
+    </string-array>
+
+    <string name="marker_type_title">Marker color</string>
+
+    <string name="marker_type_summary">Different marker colors.</string>
+
+    <string-array name="marker_type_names">
+
+        <item>White</item>
+
+        <item>Red</item>
+
+        <item>Blue</item>
+
+        <item>Purple</item>
+
+        <item>Green</item>
+
+        <item>Orange</item>
+
+
+    </string-array>
+
+    <string name="menu_about">About</string>
+
+    <string name="about_description">Real time GPS tracker for Android devices. Compatible with Various tracking systems and Mobile OS.</string>
+
+    <string name="about_license"> This application is licensed under Apache License Version 2.0 .</string>
+
+    <string name="about_web">For more information visit\nwww.spoter.in/ \nor send a mail : sankar@spoter.in</string>
+
+    <string name="usermail">mailid</string>
+
+    <string name="abouts">  /@rathishsekar\nrathishr10@gmail.com</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="version">1.0.0</string>
+
+    <string name="maps_title">Map Settings</string>
+
+    <string name="some_text" color="@color/red">new color</string>
+
+    <string name="help_support" color="@color/red">Help &#38; support</string>
+
+    <string name="queries">rathishr10@gmail.com</string>
+
+    <string name="mail">mailto:rathishx10@gmail.com</string>
+
+    <string name="he"><font fgcolor="red">Hello</font>world!</string>
+
+    <string name="rate">Rate &#38; Review</string>
+
+    <string name="rate_summary">Tap to rate this app on Play Store</string>
+
+    <string name="bug_report">Tap to rate this app on Play Store</string>
+
+
+
+</resources>
